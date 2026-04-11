@@ -1,0 +1,114 @@
+/* [project]/src/app/admin/prayer-list/page.module.css [app-client] (css) */
+.page-module__tTl1kq__page {
+  --background: #fafafa;
+  --foreground: #fff;
+  --text-primary: #000;
+  --text-secondary: #666;
+  --button-primary-hover: #383838;
+  --button-secondary-hover: #f2f2f2;
+  --button-secondary-border: #ebebeb;
+  min-height: 100vh;
+  font-family: var(--font-geist-sans);
+  background-color: var(--background);
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  display: flex;
+}
+
+.page-module__tTl1kq__main {
+  background-color: var(--foreground);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  padding: 1.5rem;
+  display: flex;
+}
+
+.page-module__tTl1kq__logo {
+  margin-bottom: 2rem;
+}
+
+.page-module__tTl1kq__form {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.page-module__tTl1kq__formGroup {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+.page-module__tTl1kq__formGroup label {
+  text-align: left;
+  margin-top: 1.5rem;
+  font-size: .875rem;
+}
+
+.page-module__tTl1kq__formGroup input {
+  background-color: var(--background);
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  width: 100%;
+  height: 1.5rem;
+}
+
+.page-module__tTl1kq__loginButton, .page-module__tTl1kq__listGroup button {
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #0000;
+  border: 1px solid #111;
+  border-radius: 1.125rem;
+  width: 100%;
+  height: 2.5rem;
+  margin-top: 2rem;
+  font-weight: 700;
+  transition: all .3s;
+}
+
+.page-module__tTl1kq__loginButton:hover, .page-module__tTl1kq__listGroup button:hover {
+  color: #fff;
+  background-color: #111;
+}
+
+.page-module__tTl1kq__cookieMessage {
+  margin-top: 1rem;
+  font-size: .87rem;
+}
+
+.page-module__tTl1kq__listGroup {
+  border: 1px solid #ccc;
+  border-radius: 1.25rem;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.page-module__tTl1kq__listGroup .page-module__tTl1kq__heading {
+  color: #383838;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.page-module__tTl1kq__listGroup .page-module__tTl1kq__instructions {
+  color: #383838;
+  margin-top: 1rem;
+}
+
+.page-module__tTl1kq__listGroup input {
+  margin-top: 2rem;
+}
+
+.page-module__tTl1kq__listGroup button {
+  margin-top: 1rem;
+}
+
+.page-module__tTl1kq__listGroup a {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=src_app_admin_prayer-list_page_module_7be70f39.css.map*/

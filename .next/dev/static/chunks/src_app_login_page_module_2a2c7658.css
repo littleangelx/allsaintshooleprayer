@@ -1,0 +1,84 @@
+/* [project]/src/app/login/page.module.css [app-client] (css) */
+.page-module__aydn6q__page {
+  --background: #fafafa;
+  --foreground: #fff;
+  --text-primary: #000;
+  --text-secondary: #666;
+  --button-primary-hover: #383838;
+  --button-secondary-hover: #f2f2f2;
+  --button-secondary-border: #ebebeb;
+  min-height: 100vh;
+  font-family: var(--font-geist-sans);
+  background-color: var(--background);
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1.5rem;
+  display: flex;
+}
+
+.page-module__aydn6q__main {
+  background-color: var(--foreground);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  padding: 1.5rem;
+  display: flex;
+}
+
+.page-module__aydn6q__logo {
+  margin-bottom: 2rem;
+}
+
+.page-module__aydn6q__form {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.page-module__aydn6q__formGroup {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+.page-module__aydn6q__formGroup label {
+  text-align: left;
+  margin-top: 1.5rem;
+  font-size: .875rem;
+}
+
+.page-module__aydn6q__formGroup input {
+  background-color: var(--background);
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  flex: 1;
+  width: 100%;
+  height: 1.5rem;
+}
+
+.page-module__aydn6q__loginButton {
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #0000;
+  border: 1px solid #111;
+  border-radius: 1.125rem;
+  width: 100%;
+  height: 2.5rem;
+  margin-top: 2rem;
+  font-weight: 700;
+  transition: all .3s;
+}
+
+.page-module__aydn6q__loginButton:hover {
+  color: #fff;
+  background-color: #111;
+}
+
+.page-module__aydn6q__cookieMessage {
+  margin-top: 1rem;
+  font-size: .87rem;
+}
+
+/*# sourceMappingURL=src_app_login_page_module_2a2c7658.css.map*/

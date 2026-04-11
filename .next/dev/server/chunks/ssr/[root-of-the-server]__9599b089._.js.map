@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/rachelkirkland/Documents/GitHub/allsaintshooleprayer/src/app/page.js"],"sourcesContent":["// app/page.js or src/app/page.js\nimport { redirect } from \"next/navigation\";\n\nexport default function HomePage() {\n  return redirect(\"/login\");\n}\n"],"names":[],"mappings":";;;;AAAA,iCAAiC;AACjC;AAAA;;AAEe,SAAS;IACtB,OAAO,IAAA,iMAAQ,EAAC;AAClB"}}]
+}

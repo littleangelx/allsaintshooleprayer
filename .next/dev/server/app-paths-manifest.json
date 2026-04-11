@@ -1,0 +1,5 @@
+{
+  "/admin/prayer-list/page": "app/admin/prayer-list/page.js",
+  "/login/page": "app/login/page.js",
+  "/prayer-link/page": "app/prayer-link/page.js"
+}

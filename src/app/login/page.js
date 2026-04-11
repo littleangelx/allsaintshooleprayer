@@ -41,7 +41,7 @@ export default function Home() {
           className={styles.logo}
         />
         <h1>All Saints Hoole Prayer Link</h1>
-        <h2>Admin Area</h2>
+
         <form className={styles.form} onSubmit={handleSubmit}>
           <div className={styles.formGroup}>
             <label htmlFor="email">Email Address</label>
