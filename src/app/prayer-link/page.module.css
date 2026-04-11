@@ -1,0 +1,81 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 7rem;
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+.pageContainer h1 {
+  color: #171717;
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 700;
+  letter-spacing: -0.1125rem;
+}
+
+.heading {
+  position: relative;
+}
+
+.heading h1 {
+  color: #ff5722;
+}
+
+.wiggle {
+  width: 3.75rem;
+  height: 0.375rem;
+}
+
+.introText {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 30rem;
+  text-align: center;
+}
+
+.prayerGrid {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+
+.topSection {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.topSection img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.topSection h2 {
+  color: #171717;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.topSection p {
+  color: #757575;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.listContainer {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  border: 1px solid rgba(238, 238, 238, 0.5);
+  background: #fff;
+  box-shadow:
+    0 8px 30px 0 rgba(0, 0, 0, 0.04),
+    0 1px 3px 0 rgba(0, 0, 0, 0.02);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}

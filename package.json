@@ -1,0 +1,19 @@
+{
+  "name": "prayer-link-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@supabase/auth-helpers-nextjs": "^0.15.0",
+    "@supabase/ssr": "^0.8.0",
+    "@supabase/supabase-js": "^2.93.1",
+    "mammoth": "^1.11.0",
+    "next": "16.1.5",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  }
+}

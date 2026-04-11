@@ -1,0 +1,42 @@
+.listsLayout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+
+.personRow {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 0.75rem;
+}
+
+.remove {
+  color: red;
+  cursor: pointer;
+}
+
+.move {
+  color: purple;
+  cursor: pointer;
+}
+
+.inputContainer {
+  width: 20rem;
+  height: 2.5rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 0.25rem;
+  margin-top: 1.5rem;
+
+  display: flex;
+}
+
+.inputContainer .addInput {
+  flex: 1;
+  padding-left: 0.5rem;
+}
+
+.inputContainer .addBtn {
+  width: 4rem;
+  height: 2.4rem;
+}
