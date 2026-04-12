@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/rachelkirkland/Documents/GitHub/allsaintshooleprayer/src/app/components/Header.module.css"],"sourcesContent":[".header {\n  padding: 1rem 1.5rem;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.logo {\n  width: 6rem;\n  height: 6rem;\n}\n\n.rightSide {\n  display: flex;\n  align-items: center;\n  gap: 1.5rem;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;AAOA;;;;;AAKA"}},
+    {"offset": {"line": 20, "column": 0}, "map": {"version":3,"sources":["file:///Users/rachelkirkland/Documents/GitHub/allsaintshooleprayer/src/app/components/LogoutButton.module.css"],"sourcesContent":[".button {\n  background-color: #ff5722;\n  color: #fff;\n  border: none;\n  padding: 0.25rem 0.75rem;\n  border-radius: 0.25rem;\n}\n"],"names":[],"mappings":"AAAA"}}]
+}

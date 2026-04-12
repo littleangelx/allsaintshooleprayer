@@ -1,0 +1,29 @@
+/* [project]/src/app/components/Header.module.css [app-client] (css) */
+.Header-module__GPz-la__header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  display: flex;
+}
+
+.Header-module__GPz-la__logo {
+  width: 6rem;
+  height: 6rem;
+}
+
+.Header-module__GPz-la__rightSide {
+  align-items: center;
+  gap: 1.5rem;
+  display: flex;
+}
+
+/* [project]/src/app/components/LogoutButton.module.css [app-client] (css) */
+.LogoutButton-module__WHCK4G__button {
+  color: #fff;
+  background-color: #ff5722;
+  border: none;
+  border-radius: .25rem;
+  padding: .25rem .75rem;
+}
+
+/*# sourceMappingURL=src_app_components_b1cebe6f._.css.map*/

@@ -36,7 +36,9 @@ const Header = () => {
         className={styles.logo}
       />
       <div className={styles.rightSide}>
+        <Link href="/prayer-link">Prayer Home</Link>
         {isAdmin && <Link href="/admin/prayer-list">Admin Area</Link>}
+        <Link href="/change-password">Update Password</Link>
         <LogoutButton />
       </div>
     </header>

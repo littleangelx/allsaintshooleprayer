@@ -1,0 +1,37 @@
+/* [project]/src/app/components/Header.module.css [app-client] (css) */
+.Header-module__GPz-la__header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  display: flex;
+}
+
+.Header-module__GPz-la__logo {
+  width: 6rem;
+  height: 6rem;
+}
+
+.Header-module__GPz-la__rightSide {
+  align-items: center;
+  gap: 1.5rem;
+  display: flex;
+}
+
+/* [project]/src/app/components/LogoutButton.module.css [app-client] (css) */
+.LogoutButton-module__WHCK4G__button {
+  color: #fff;
+  background-color: #ff5722;
+  border: none;
+  border-radius: .25rem;
+  padding: .25rem .75rem;
+}
+
+/* [project]/src/app/change-password/page.module.css [app-client] (css) */
+.page-module__fcWT8W__page {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_app_b19a5fb6._.css.map*/

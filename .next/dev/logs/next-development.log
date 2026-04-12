@@ -1,58 +1,88 @@
-[00:00:00.688] Server  LOG     ✓ Ready in 405ms
-[00:00:01.323] Server  ERROR   ⨯ Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
-[00:00:01.665] Browser ERROR   uncaughtError: Error: Invalid supabaseUrl: Must be a valid HTTP or HTTPS URL.
-[00:00:34.895] Server  LOG       Reload env: .env
-[00:00:34.983] Server  LOG     ✓ Compiled in 15ms
-[00:00:35.052] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:00:36.428] Browser ERROR   {"__isAuthError":true,"name":"AuthApiError","status":401}
-[00:00:46.390] Server  LOG       Reload env: .env
-[00:01:44.424] Server  LOG       Reload env: .env
-[00:01:44.485] Server  LOG     ✓ Compiled in 0ms
-[00:04:18.751] Server  LOG       Reload env: .env.local
-[00:04:18.885] Server  LOG     ✓ Compiled in 76ms
-[00:04:37.799] Browser LOG     false
-[00:04:37.799] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:04:38.159] Browser LOG     true
-[00:04:38.159] Browser LOG     [2;38;2;124;124;124m%s[0m true
-[00:04:38.159] Browser LOG     true
-[00:04:38.159] Browser LOG     [2;38;2;124;124;124m%s[0m true
-[00:04:38.159] Browser LOG     true
-[00:04:38.160] Browser LOG     [2;38;2;124;124;124m%s[0m true
-[00:04:38.160] Browser LOG     true
-[00:04:38.160] Browser LOG     [2;38;2;124;124;124m%s[0m true
-[00:07:35.133] Server  LOG     ✓ Compiled in 18ms
-[00:10:23.084] Server  LOG     ✓ Compiled in 22ms
-[00:10:23.156] Browser LOG     true
-[00:10:23.156] Browser LOG     [2;38;2;124;124;124m%s[0m true
-[00:11:09.016] Server  LOG     ✓ Compiled in 16ms
-[00:11:10.491] Server  LOG     false
-[00:11:11.234] Browser LOG     false
-[00:11:11.234] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:11:11.592] Browser LOG     true
-[00:11:11.592] Browser LOG     [2;38;2;124;124;124m%s[0m true
-[00:11:11.592] Browser LOG     true
-[00:11:11.592] Browser LOG     [2;38;2;124;124;124m%s[0m true
-[00:11:11.592] Browser LOG     true
-[00:11:11.592] Browser LOG     [2;38;2;124;124;124m%s[0m true
-[00:11:34.832] Server  LOG     ✓ Compiled in 18ms
-[00:11:58.424] Server  LOG     ✓ Compiled in 3ms
-[00:12:29.802] Server  LOG     ✓ Compiled in 9ms
-[00:13:01.402] Browser WARN    Image with src "/images/ash_logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:13:41.066] Server  LOG     ✓ Compiled in 30ms
-[00:13:57.585] Server  LOG     ✓ Compiled in 2ms
-[00:14:18.296] Server  LOG     ✓ Compiled in 3ms
-[00:14:47.922] Server  LOG     ✓ Compiled in 16ms
-[00:15:13.349] Browser LOG     false
-[00:15:13.349] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:15:13.673] Browser LOG     true
-[00:15:13.673] Browser LOG     [2;38;2;124;124;124m%s[0m true
-[00:15:13.673] Browser LOG     true
-[00:15:13.673] Browser LOG     [2;38;2;124;124;124m%s[0m true
-[00:15:13.673] Browser LOG     true
-[00:15:13.673] Browser LOG     [2;38;2;124;124;124m%s[0m true
-[00:15:13.673] Browser LOG     true
-[00:15:13.673] Browser LOG     [2;38;2;124;124;124m%s[0m true
-[00:15:13.673] Browser LOG     true
-[00:15:13.673] Browser LOG     [2;38;2;124;124;124m%s[0m true
-[00:15:55.679] Server  LOG     ✓ Compiled in 25ms
+[00:00:00.697] Server  LOG     ✓ Ready in 475ms
+[00:00:16.142] Browser LOG     false
+[00:00:16.142] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:00:16.414] Browser LOG     false
+[00:00:16.414] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:00:16.414] Browser LOG     false
+[00:00:16.414] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:00:16.414] Browser LOG     false
+[00:00:16.414] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:00:16.414] Browser LOG     false
+[00:00:16.414] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:01:04.941] Server  LOG     false
+[00:01:05.129] Browser LOG     false
+[00:01:05.129] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:01:05.354] Browser LOG     false
+[00:01:05.354] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:01:05.354] Browser LOG     false
+[00:01:05.354] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:01:06.202] Server  LOG     false
+[00:01:06.563] Browser LOG     false
+[00:01:06.563] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:01:06.563] Browser LOG     false
+[00:01:06.563] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:01:06.563] Browser LOG     false
+[00:01:06.563] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:01:49.147] Browser LOG     false
+[00:01:49.147] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:01:55.817] Server  LOG     ✓ Compiled in 4ms
+[00:02:11.834] Browser LOG     false
+[00:02:11.834] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:02:11.834] Browser LOG     false
+[00:02:11.834] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:02:11.834] Browser LOG     false
+[00:02:11.834] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:02:11.834] Browser LOG     false
+[00:02:11.834] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:02:11.938] Browser LOG     false
+[00:02:11.938] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:02:14.007] Browser LOG     false
+[00:02:14.007] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:04:18.501] Browser LOG     false
+[00:04:18.501] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:04:18.501] Browser LOG     false
+[00:04:18.501] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:04:38.308] Browser LOG     false
+[00:04:38.308] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:04:58.543] Browser LOG     false
+[00:04:58.543] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:05:48.210] Server  LOG     ✓ Compiled in 21ms
+[00:05:59.975] Server  LOG     ✓ Compiled in 7ms
+[00:07:21.106] Server  LOG     ✓ Compiled in 24ms
+[00:07:27.763] Server  LOG     ✓ Compiled in 14ms
+[00:07:43.130] Server  LOG     ✓ Compiled in 17ms
+[00:07:50.437] Server  LOG     ✓ Compiled in 2ms
+[00:08:02.643] Server  LOG     ✓ Compiled in 16ms
+[00:08:24.987] Server  LOG     ✓ Compiled in 7ms
+[00:09:25.497] Server  LOG     ✓ Compiled in 16ms
+[00:09:50.958] Browser LOG     false
+[00:09:50.958] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:09:50.958] Browser LOG     false
+[00:09:50.958] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:09:51.176] Browser LOG     false
+[00:09:51.176] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:09:51.176] Browser LOG     false
+[00:09:51.176] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:09:51.176] Browser LOG     false
+[00:09:51.176] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:09:51.176] Browser LOG     false
+[00:09:51.176] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:10:50.943] Server  LOG     ✓ Compiled in 39ms
+[00:10:51.013] Browser LOG     false
+[00:10:51.013] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:10:51.013] Browser LOG     false
+[00:10:51.013] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:10:53.540] Browser LOG     false
+[00:10:53.540] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:10:55.177] Browser LOG     false
+[00:10:55.177] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:10:57.155] Browser LOG     false
+[00:10:57.155] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:10:57.155] Browser LOG     false
+[00:10:57.155] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:10:57.155] Browser LOG     false
+[00:10:57.155] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:10:57.155] Browser LOG     false
+[00:10:57.155] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:10:57.155] Browser LOG     false
+[00:10:57.155] Browser LOG     [2;38;2;124;124;124m%s[0m false
