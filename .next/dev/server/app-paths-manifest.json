@@ -1,7 +1,7 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/change-password/page": "app/change-password/page.js",
+  "/admin/prayer-list/page": "app/admin/prayer-list/page.js",
   "/login/page": "app/login/page.js",
+  "/not-allowed/page": "app/not-allowed/page.js",
   "/page": "app/page.js",
   "/prayer-link/page": "app/prayer-link/page.js"
 }

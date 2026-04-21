@@ -54,8 +54,9 @@ const PrayerLink = () => {
           />
         </div>
         <p className={styles.introText}>
-          A serene space to share names and offer prayerful support to those in
-          our community facing illness or loss.
+          Thank you for signing up to the All Saints Prayer Page. A serene space
+          to share names and offer prayerful support to those in our community
+          facing illness or loss. The lists are reviewed monthly.
         </p>
 
         <div className={styles.prayerGrid}>
@@ -68,8 +69,8 @@ const PrayerLink = () => {
                 height={30}
               />
               <div className={styles.rightSide}>
-                <h2>Prayers for the Sick</h2>
-                <p>Healing and strength</p>
+                <h2>Please pray for the sick</h2>
+                <p>God's presence, healing, and strength</p>
               </div>
             </div>
             <div className={styles.listContainer}>
@@ -87,8 +88,8 @@ const PrayerLink = () => {
                 height={30}
               />
               <div className={styles.rightSide}>
-                <h2>Prayers for the Bereaved</h2>
-                <p>Comfort and peace</p>
+                <h2>Please pray for the bereaved</h2>
+                <p>God's presence, comfort and peace</p>
               </div>
             </div>
             <div className={styles.listContainer}>

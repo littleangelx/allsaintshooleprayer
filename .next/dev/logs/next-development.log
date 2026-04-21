@@ -1,88 +1,42 @@
-[00:00:00.697] Server  LOG     ✓ Ready in 475ms
-[00:00:16.142] Browser LOG     false
-[00:00:16.142] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:00:16.414] Browser LOG     false
-[00:00:16.414] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:00:16.414] Browser LOG     false
-[00:00:16.414] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:00:16.414] Browser LOG     false
-[00:00:16.414] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:00:16.414] Browser LOG     false
-[00:00:16.414] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:01:04.941] Server  LOG     false
-[00:01:05.129] Browser LOG     false
-[00:01:05.129] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:01:05.354] Browser LOG     false
-[00:01:05.354] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:01:05.354] Browser LOG     false
-[00:01:05.354] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:01:06.202] Server  LOG     false
-[00:01:06.563] Browser LOG     false
-[00:01:06.563] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:01:06.563] Browser LOG     false
-[00:01:06.563] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:01:06.563] Browser LOG     false
-[00:01:06.563] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:01:49.147] Browser LOG     false
-[00:01:49.147] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:01:55.817] Server  LOG     ✓ Compiled in 4ms
-[00:02:11.834] Browser LOG     false
-[00:02:11.834] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:02:11.834] Browser LOG     false
-[00:02:11.834] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:02:11.834] Browser LOG     false
-[00:02:11.834] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:02:11.834] Browser LOG     false
-[00:02:11.834] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:02:11.938] Browser LOG     false
-[00:02:11.938] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:02:14.007] Browser LOG     false
-[00:02:14.007] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:04:18.501] Browser LOG     false
-[00:04:18.501] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:04:18.501] Browser LOG     false
-[00:04:18.501] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:04:38.308] Browser LOG     false
-[00:04:38.308] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:04:58.543] Browser LOG     false
-[00:04:58.543] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:05:48.210] Server  LOG     ✓ Compiled in 21ms
-[00:05:59.975] Server  LOG     ✓ Compiled in 7ms
-[00:07:21.106] Server  LOG     ✓ Compiled in 24ms
-[00:07:27.763] Server  LOG     ✓ Compiled in 14ms
-[00:07:43.130] Server  LOG     ✓ Compiled in 17ms
-[00:07:50.437] Server  LOG     ✓ Compiled in 2ms
-[00:08:02.643] Server  LOG     ✓ Compiled in 16ms
-[00:08:24.987] Server  LOG     ✓ Compiled in 7ms
-[00:09:25.497] Server  LOG     ✓ Compiled in 16ms
-[00:09:50.958] Browser LOG     false
-[00:09:50.958] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:09:50.958] Browser LOG     false
-[00:09:50.958] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:09:51.176] Browser LOG     false
-[00:09:51.176] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:09:51.176] Browser LOG     false
-[00:09:51.176] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:09:51.176] Browser LOG     false
-[00:09:51.176] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:09:51.176] Browser LOG     false
-[00:09:51.176] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:10:50.943] Server  LOG     ✓ Compiled in 39ms
-[00:10:51.013] Browser LOG     false
-[00:10:51.013] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:10:51.013] Browser LOG     false
-[00:10:51.013] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:10:53.540] Browser LOG     false
-[00:10:53.540] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:10:55.177] Browser LOG     false
-[00:10:55.177] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:10:57.155] Browser LOG     false
-[00:10:57.155] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:10:57.155] Browser LOG     false
-[00:10:57.155] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:10:57.155] Browser LOG     false
-[00:10:57.155] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:10:57.155] Browser LOG     false
-[00:10:57.155] Browser LOG     [2;38;2;124;124;124m%s[0m false
-[00:10:57.155] Browser LOG     false
-[00:10:57.155] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:00:00.889] Server  LOG     ✓ Ready in 668ms
+[00:00:16.629] Browser LOG     false
+[00:00:16.629] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:00:17.180] Browser LOG     false
+[00:00:17.180] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:00:17.180] Browser LOG     false
+[00:00:17.180] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:00:17.401] Browser LOG     false
+[00:00:17.401] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:00:17.401] Browser LOG     false
+[00:00:17.401] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:01:47.559] Server  LOG     ✓ Compiled in 113ms
+[00:01:47.647] Browser LOG     false
+[00:01:47.647] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:02:19.932] Server  LOG     ✓ Compiled in 8ms
+[00:02:20.015] Browser LOG     false
+[00:02:20.015] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:02:29.133] Browser LOG     false
+[00:02:29.133] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:04:23.454] Server  LOG     false
+[00:04:23.615] Browser LOG     false
+[00:04:23.615] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:04:23.911] Browser LOG     false
+[00:04:23.911] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:04:24.065] Browser LOG     true
+[00:04:24.065] Browser LOG     [2;38;2;124;124;124m%s[0m true
+[00:04:24.065] Browser LOG     true
+[00:04:24.065] Browser LOG     [2;38;2;124;124;124m%s[0m true
+[00:04:48.375] Browser LOG     false
+[00:04:48.375] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:04:48.553] Browser LOG     true
+[00:04:48.553] Browser LOG     [2;38;2;124;124;124m%s[0m true
+[00:04:48.709] Browser LOG     true
+[00:04:48.710] Browser LOG     [2;38;2;124;124;124m%s[0m true
+[00:05:03.015] Server  LOG     ✓ Compiled in 0ms
+[00:05:06.439] Server  LOG     false
+[00:05:06.884] Browser LOG     false
+[00:05:06.884] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:05:07.071] Browser LOG     false
+[00:05:07.071] Browser LOG     [2;38;2;124;124;124m%s[0m false
+[00:05:07.199] Browser LOG     false
+[00:05:07.199] Browser LOG     [2;38;2;124;124;124m%s[0m false
