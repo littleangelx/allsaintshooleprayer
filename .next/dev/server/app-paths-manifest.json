@@ -1,7 +1,5 @@
 {
-  "/admin/prayer-list/page": "app/admin/prayer-list/page.js",
   "/login/page": "app/login/page.js",
-  "/not-allowed/page": "app/not-allowed/page.js",
   "/page": "app/page.js",
   "/prayer-link/page": "app/prayer-link/page.js"
 }

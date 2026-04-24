@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .logo {
@@ -10,8 +11,64 @@
   height: 6rem;
 }
 
+/* 🔹 Desktop nav */
 .rightSide {
   display: flex;
   align-items: center;
   gap: 1.5rem;
+}
+
+/* 🔹 Hamburger button */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: black;
+  display: block;
+  border-radius: 2px;
+}
+
+/* 🔹 Mobile menu */
+.mobileMenu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 70%;
+  height: 100vh;
+  background: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  transition: right 0.3s ease;
+  z-index: 1000;
+}
+
+/* open state */
+.mobileMenu.open {
+  right: 0;
+}
+
+/* 🔹 Responsive */
+@media (max-width: 768px) {
+  .rightSide {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
 }

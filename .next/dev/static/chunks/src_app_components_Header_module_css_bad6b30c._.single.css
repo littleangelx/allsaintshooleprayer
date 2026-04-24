@@ -4,6 +4,7 @@
   align-items: center;
   padding: 1rem 1.5rem;
   display: flex;
+  position: relative;
 }
 
 .Header-module__GPz-la__logo {
@@ -15,6 +16,55 @@
   align-items: center;
   gap: 1.5rem;
   display: flex;
+}
+
+.Header-module__GPz-la__hamburger {
+  cursor: pointer;
+  z-index: 1001;
+  background: none;
+  border: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  display: none;
+}
+
+.Header-module__GPz-la__hamburger span {
+  background: #000;
+  border-radius: 2px;
+  width: 25px;
+  height: 3px;
+  display: block;
+}
+
+.Header-module__GPz-la__mobileMenu {
+  z-index: 1000;
+  background: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 70%;
+  height: 100vh;
+  transition: right .3s;
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: -100%;
+}
+
+.Header-module__GPz-la__mobileMenu.Header-module__GPz-la__open {
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  .Header-module__GPz-la__rightSide {
+    display: none;
+  }
+
+  .Header-module__GPz-la__hamburger {
+    display: flex;
+  }
 }
 
 /*# sourceMappingURL=src_app_components_Header_module_css_bad6b30c._.single.css.map*/
