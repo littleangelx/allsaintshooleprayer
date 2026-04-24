@@ -2,9 +2,8 @@
 
 import Image from "next/image";
 import styles from "./Header.module.css";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { supabaseBrowser } from "../lib/supabase/browser";
-import { useRouter } from "next/navigation";
 import Link from "next/link";
 import LogoutButton from "./LogoutButton";
 
@@ -13,7 +12,9 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const supabase = supabaseBrowser();
-  const router = useRouter();
+
+  const touchStartX = useRef(0);
+  const touchEndX = useRef(0);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -22,14 +23,29 @@ const Header = () => {
         setIsAdmin(data[0].admin);
       }
     };
-
     fetchData();
   }, []);
 
-  // lock body scroll when menu is open
+  // 🔹 Lock scroll
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "auto";
   }, [menuOpen]);
+
+  // 🔹 Swipe detection
+  const handleTouchStart = (e) => {
+    touchStartX.current = e.changedTouches[0].screenX;
+  };
+
+  const handleTouchEnd = (e) => {
+    touchEndX.current = e.changedTouches[0].screenX;
+
+    const swipeDistance = touchStartX.current - touchEndX.current;
+
+    // swipe left to close
+    if (swipeDistance > 50) {
+      setMenuOpen(false);
+    }
+  };
 
   return (
     <header className={styles.header}>
@@ -41,7 +57,7 @@ const Header = () => {
         className={styles.logo}
       />
 
-      {/* 🔹 Desktop Nav */}
+      {/* 🔹 Desktop */}
       <div className={styles.rightSide}>
         <Link href="/prayer-link">Prayer Home</Link>
         {isAdmin && <Link href="/admin/prayer-list">Admin Area</Link>}
@@ -49,9 +65,9 @@ const Header = () => {
         <LogoutButton />
       </div>
 
-      {/* 🔹 Hamburger Button */}
+      {/* 🔹 Hamburger */}
       <button
-        className={styles.hamburger}
+        className={`${styles.hamburger} ${menuOpen ? styles.active : ""}`}
         onClick={() => setMenuOpen(!menuOpen)}
       >
         <span />
@@ -59,8 +75,17 @@ const Header = () => {
         <span />
       </button>
 
+      {/* 🔹 Backdrop */}
+      {menuOpen && (
+        <div className={styles.backdrop} onClick={() => setMenuOpen(false)} />
+      )}
+
       {/* 🔹 Mobile Menu */}
-      <div className={`${styles.mobileMenu} ${menuOpen ? styles.open : ""}`}>
+      <div
+        className={`${styles.mobileMenu} ${menuOpen ? styles.open : ""}`}
+        onTouchStart={handleTouchStart}
+        onTouchEnd={handleTouchEnd}
+      >
         <Link href="/prayer-link" onClick={() => setMenuOpen(false)}>
           Prayer Home
         </Link>

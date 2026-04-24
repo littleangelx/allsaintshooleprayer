@@ -47,6 +47,10 @@
   .page-module__qmueaq__prayerGrid {
     grid-template-columns: 1fr;
   }
+
+  .page-module__qmueaq__pageContainer h1 {
+    font-size: 2.5rem;
+  }
 }
 
 .page-module__qmueaq__topSection {
