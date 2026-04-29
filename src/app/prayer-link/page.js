@@ -5,9 +5,16 @@ import styles from "./page.module.css";
 import { supabaseBrowser } from "../lib/supabase/browser";
 import { useEffect, useState } from "react";
 import Header from "../components/Header";
+import { redirect } from "next/navigation";
 
-const PrayerLink = () => {
+const PrayerLink = async () => {
   const supabase = supabaseBrowser(); // or your server client
+
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  if (!user) redirect("/login");
 
   const [sick, setSick] = useState([]);
   const [bereaved, setBereaved] = useState([]);

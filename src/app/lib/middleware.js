@@ -1,18 +1,17 @@
 export async function middleware(req) {
   const { pathname } = req.nextUrl;
 
+  const res = NextResponse.next();
+
   // ✅ public routes
   if (
     pathname === "/login" ||
     pathname === "/home" ||
-    pathname === "/prayer-link" ||
     pathname.startsWith("/_next") ||
     pathname.startsWith("/favicon")
   ) {
-    return NextResponse.next();
+    return res;
   }
-
-  const res = NextResponse.next();
 
   const supabase = createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL,
@@ -32,11 +31,12 @@ export async function middleware(req) {
     data: { user },
   } = await supabase.auth.getUser();
 
+  // 🔒 require login for everything else (including /prayer-link)
   if (!user) {
     return NextResponse.redirect(new URL("/login", req.url));
   }
 
-  // 🔒 only admin routes protected
+  // 🔒 admin-only routes
   if (pathname.startsWith("/admin")) {
     const { data: profile } = await supabase
       .from("profiles")
