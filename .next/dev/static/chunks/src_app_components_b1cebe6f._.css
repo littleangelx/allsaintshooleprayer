@@ -1,9 +1,11 @@
 /* [project]/src/app/components/Header.module.css [app-client] (css) */
 .Header-module__GPz-la__header {
+  z-index: 100;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
   display: flex;
+  position: relative;
 }
 
 .Header-module__GPz-la__logo {
@@ -15,6 +17,78 @@
   align-items: center;
   gap: 1.5rem;
   display: flex;
+}
+
+.Header-module__GPz-la__hamburger {
+  cursor: pointer;
+  z-index: 1002;
+  background: none;
+  border: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  display: none;
+}
+
+.Header-module__GPz-la__hamburger span {
+  background: #000;
+  border-radius: 2px;
+  width: 25px;
+  height: 3px;
+  transition: all .3s;
+  display: block;
+}
+
+.Header-module__GPz-la__hamburger.Header-module__GPz-la__active span:first-child {
+  transform: rotate(45deg)translate(5px, 5px);
+}
+
+.Header-module__GPz-la__hamburger.Header-module__GPz-la__active span:nth-child(2) {
+  opacity: 0;
+}
+
+.Header-module__GPz-la__hamburger.Header-module__GPz-la__active span:nth-child(3) {
+  transform: rotate(-45deg)translate(6px, -6px);
+}
+
+.Header-module__GPz-la__backdrop {
+  z-index: 1000;
+  background: #0006;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.Header-module__GPz-la__mobileMenu {
+  z-index: 1001;
+  background: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 70%;
+  height: 100vh;
+  transition: right .3s;
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: -100%;
+}
+
+.Header-module__GPz-la__mobileMenu.Header-module__GPz-la__open {
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  .Header-module__GPz-la__rightSide {
+    display: none;
+  }
+
+  .Header-module__GPz-la__hamburger {
+    display: flex;
+  }
 }
 
 /* [project]/src/app/components/LogoutButton.module.css [app-client] (css) */

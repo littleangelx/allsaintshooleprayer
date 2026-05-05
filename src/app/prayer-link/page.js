@@ -1,27 +1,32 @@
 "use client";
 
-import Image from "next/image";
-import styles from "./page.module.css";
+import { useRouter } from "next/navigation";
 import { supabaseBrowser } from "../lib/supabase/browser";
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
+
 import Header from "../components/Header";
-import { redirect } from "next/navigation";
+import styles from "./page.module.css";
 
-const PrayerLink = async () => {
-  const supabase = supabaseBrowser(); // or your server client
-
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-
-  if (!user) redirect("/login");
+const PrayerLink = () => {
+  const router = useRouter();
+  const supabase = supabaseBrowser();
 
   const [sick, setSick] = useState([]);
   const [bereaved, setBereaved] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const fetchData = async () => {
-      const { data: latestSick, error: sickError } = await supabase
+    const checkUserAndFetch = async () => {
+      const {
+        data: { user },
+      } = await supabase.auth.getUser();
+
+      if (!user) {
+        router.push("/login");
+        return;
+      }
+
+      const { data: latestSick } = await supabase
         .from("prayer_lists")
         .select("*")
         .eq("type", "sick")
@@ -29,9 +34,7 @@ const PrayerLink = async () => {
         .limit(1)
         .single();
 
-      setSick(latestSick.people);
-
-      const { data: latestBereaved, error: bereavedError } = await supabase
+      const { data: latestBereaved } = await supabase
         .from("prayer_lists")
         .select("*")
         .eq("type", "bereavement")
@@ -39,11 +42,15 @@ const PrayerLink = async () => {
         .limit(1)
         .single();
 
-      setBereaved(latestBereaved.people);
+      setSick(latestSick?.people || []);
+      setBereaved(latestBereaved?.people || []);
+      setLoading(false);
     };
 
-    fetchData();
+    checkUserAndFetch();
   }, []);
+
+  if (loading) return <p>Loading...</p>;
 
   return (
     <>
@@ -52,7 +59,7 @@ const PrayerLink = async () => {
         <h1>Hold them in your</h1>
         <div className={styles.heading}>
           <h1>prayers</h1>
-          <Image
+          <img
             src="/images/wiggle.png"
             alt=""
             width={30}
@@ -69,12 +76,7 @@ const PrayerLink = async () => {
         <div className={styles.prayerGrid}>
           <div className={styles.sickList}>
             <div className={styles.topSection}>
-              <Image
-                src="/images/sick-icon.png"
-                alt=""
-                width={30}
-                height={30}
-              />
+              <img src="/images/sick-icon.png" alt="" width={30} height={30} />
               <div className={styles.rightSide}>
                 <h2>Please pray for the sick</h2>
                 <p>God's presence, healing, and strength</p>
@@ -88,7 +90,7 @@ const PrayerLink = async () => {
           </div>
           <div className={styles.sickList}>
             <div className={styles.topSection}>
-              <Image
+              <img
                 src="/images/bereaved-icon.png"
                 alt=""
                 width={30}
